@@ -1,0 +1,229 @@
+{
+  "generated_at": "2026-07-15T23:08:34Z",
+  "git_commit": "b189869b7755d2b482969acf6c92da3ecfeffd36",
+  "total_facts": 12,
+  "categories": [
+    "architecture",
+    "invariant",
+    "dependency",
+    "security",
+    "concurrency",
+    "configuration",
+    "testing",
+    "convention"
+  ],
+  "facts": [
+    {
+      "id": "fact-001",
+      "category": "architecture",
+      "statement": "Composition root is xai-grok-pager-bin building binary xai-grok-pager (shipped as grok)",
+      "confidence": 0.98,
+      "source_files": [
+        "crates/codegen/xai-grok-pager-bin/src/main.rs",
+        "README.md"
+      ],
+      "discovered_at": "2026-07-15T23:08:34Z",
+      "last_verified_at": "2026-07-15T23:08:34Z",
+      "edges": {
+        "updates": [],
+        "extends": [],
+        "derives": [],
+        "superseded_by": null
+      }
+    },
+    {
+      "id": "fact-002",
+      "category": "architecture",
+      "statement": "Agent non-TUI modes enter via xai-grok-shell::agent::app run_headless/run_stdio_agent/run_leader",
+      "confidence": 0.95,
+      "source_files": [
+        "crates/codegen/xai-grok-shell/src/agent/app.rs"
+      ],
+      "discovered_at": "2026-07-15T23:08:34Z",
+      "last_verified_at": "2026-07-15T23:08:34Z",
+      "edges": {
+        "derives": [
+          "fact-001"
+        ],
+        "updates": [],
+        "extends": [],
+        "superseded_by": null
+      }
+    },
+    {
+      "id": "fact-003",
+      "category": "security",
+      "statement": "Tool authorization order: PreToolUse hooks, then deny/ask/allow rules, remembered grants, built-in auto-approvals, then permission mode; deny wins",
+      "confidence": 0.97,
+      "source_files": [
+        "crates/codegen/xai-grok-pager/docs/user-guide/22-permissions-and-safety.md",
+        "crates/codegen/xai-grok-workspace/src/permission/mod.rs"
+      ],
+      "discovered_at": "2026-07-15T23:08:34Z",
+      "last_verified_at": "2026-07-15T23:08:34Z",
+      "edges": {
+        "updates": [],
+        "extends": [],
+        "derives": [],
+        "superseded_by": null
+      }
+    },
+    {
+      "id": "fact-004",
+      "category": "convention",
+      "statement": "Root Cargo.toml is generated; prefer editing per-crate Cargo.toml",
+      "confidence": 0.99,
+      "source_files": [
+        "README.md",
+        "Cargo.toml"
+      ],
+      "discovered_at": "2026-07-15T23:08:34Z",
+      "last_verified_at": "2026-07-15T23:08:34Z",
+      "edges": {
+        "updates": [],
+        "extends": [],
+        "derives": [],
+        "superseded_by": null
+      }
+    },
+    {
+      "id": "fact-005",
+      "category": "dependency",
+      "statement": "Mermaid render path vendors mermaid-to-svg, dagre_rust, graphlib_rust, ordered_hashmap under third_party/",
+      "confidence": 0.98,
+      "source_files": [
+        "third_party/README.md"
+      ],
+      "discovered_at": "2026-07-15T23:08:34Z",
+      "last_verified_at": "2026-07-15T23:08:34Z",
+      "edges": {
+        "updates": [],
+        "extends": [],
+        "derives": [],
+        "superseded_by": null
+      }
+    },
+    {
+      "id": "fact-006",
+      "category": "architecture",
+      "statement": "crates/common holds shared leaves: tool-protocol, tool-runtime, compaction, circuit-breaker, computer-hub",
+      "confidence": 0.95,
+      "source_files": [
+        "crates/common/xai-tool-protocol/src/lib.rs",
+        "crates/common/xai-grok-compaction/src/lib.rs"
+      ],
+      "discovered_at": "2026-07-15T23:08:34Z",
+      "last_verified_at": "2026-07-15T23:08:34Z",
+      "edges": {
+        "updates": [],
+        "extends": [],
+        "derives": [],
+        "superseded_by": null
+      }
+    },
+    {
+      "id": "fact-007",
+      "category": "architecture",
+      "statement": "Graph package clustering is coarse; primary app mass is package codegen (~48k nodes)",
+      "confidence": 0.9,
+      "source_files": [
+        "draft/graph/schema.yaml"
+      ],
+      "discovered_at": "2026-07-15T23:08:34Z",
+      "last_verified_at": "2026-07-15T23:08:34Z",
+      "edges": {
+        "updates": [],
+        "extends": [],
+        "derives": [],
+        "superseded_by": null
+      }
+    },
+    {
+      "id": "fact-008",
+      "category": "invariant",
+      "statement": "External contributions are not accepted",
+      "confidence": 1.0,
+      "source_files": [
+        "CONTRIBUTING.md"
+      ],
+      "discovered_at": "2026-07-15T23:08:34Z",
+      "last_verified_at": "2026-07-15T23:08:34Z",
+      "edges": {
+        "updates": [],
+        "extends": [],
+        "derives": [],
+        "superseded_by": null
+      }
+    },
+    {
+      "id": "fact-009",
+      "category": "configuration",
+      "statement": "Rust toolchain pinned to 1.92.0 with rustfmt and clippy components",
+      "confidence": 0.99,
+      "source_files": [
+        "rust-toolchain.toml"
+      ],
+      "discovered_at": "2026-07-15T23:08:34Z",
+      "last_verified_at": "2026-07-15T23:08:34Z",
+      "edges": {
+        "updates": [],
+        "extends": [],
+        "derives": [],
+        "superseded_by": null
+      }
+    },
+    {
+      "id": "fact-010",
+      "category": "security",
+      "statement": "bypassPermissions still applies deny rules, hooks, and shell ask segment rules",
+      "confidence": 0.95,
+      "source_files": [
+        "crates/codegen/xai-grok-pager/docs/user-guide/22-permissions-and-safety.md"
+      ],
+      "discovered_at": "2026-07-15T23:08:34Z",
+      "last_verified_at": "2026-07-15T23:08:34Z",
+      "edges": {
+        "extends": [
+          "fact-003"
+        ],
+        "updates": [],
+        "derives": [],
+        "superseded_by": null
+      }
+    },
+    {
+      "id": "fact-011",
+      "category": "testing",
+      "statement": "Developer workflow targets per-crate cargo test/check/clippy rather than full workspace",
+      "confidence": 0.95,
+      "source_files": [
+        "README.md"
+      ],
+      "discovered_at": "2026-07-15T23:08:34Z",
+      "last_verified_at": "2026-07-15T23:08:34Z",
+      "edges": {
+        "updates": [],
+        "extends": [],
+        "derives": [],
+        "superseded_by": null
+      }
+    },
+    {
+      "id": "fact-012",
+      "category": "dependency",
+      "statement": "cli-chat-proxy-types under prod/mc define CLI-backend wire contracts",
+      "confidence": 0.93,
+      "source_files": [
+        "prod/mc/cli-chat-proxy-types/src/lib.rs"
+      ],
+      "discovered_at": "2026-07-15T23:08:34Z",
+      "last_verified_at": "2026-07-15T23:08:34Z",
+      "edges": {
+        "updates": [],
+        "extends": [],
+        "derives": [],
+        "superseded_by": null
+      }
+    }
+  ]
+}

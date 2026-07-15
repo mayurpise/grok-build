@@ -1,0 +1,52 @@
+{
+  "run_id": "b53d778a-75c6-4c2b-a171-fa7f5c47044b",
+  "started_at": "2026-07-15T23:08:34Z",
+  "completed_at": "2026-07-15T23:08:34Z",
+  "run_type": "init",
+  "status": "completed",
+  "phases_completed": [
+    "precheck",
+    "graph",
+    "okf_plan",
+    "okf_generate",
+    "okf_validate",
+    "product",
+    "tech_stack",
+    "workflow",
+    "guardrails",
+    "state"
+  ],
+  "phases_remaining": [],
+  "files_analyzed": 2219,
+  "files_generated": [
+    "draft/architecture.md",
+    "draft/.ai-context.md",
+    "draft/.ai-profile.md",
+    "draft/product.md",
+    "draft/tech-stack.md",
+    "draft/workflow.md",
+    "draft/guardrails.md",
+    "draft/tracks.md",
+    "draft/index.md",
+    "draft/wiki/",
+    "draft/.state/"
+  ],
+  "unresolved_questions": [
+    "Graph package labels str/list/dict/int/Cargo/profile/workspace are coarse/noise \u2014 crate-level package graph would be more accurate",
+    "Full internal CI/deploy pipeline not present in this OSS snapshot",
+    "Which workspace SQLite journals are production-critical vs debug-only was not exhaustively mapped"
+  ],
+  "active_focus_areas": [
+    "codegen",
+    "permissions",
+    "shell_agent",
+    "tools"
+  ],
+  "draft_init_mode": "okf",
+  "tier": 5,
+  "graph": {
+    "nodes": 87911,
+    "edges": 580233
+  },
+  "resumable_checkpoint": null
+}

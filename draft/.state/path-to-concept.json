@@ -1,0 +1,767 @@
+{
+  "crates/codegen/xai-acp-lib/src/gateway.rs": [
+    "features/acp-agent-mode.md"
+  ],
+  "crates/codegen/xai-grok-shell/src/agent/app.rs": [
+    "features/acp-agent-mode.md",
+    "entrypoints/main.md"
+  ],
+  "crates/codegen/xai-grok-pager/docs/user-guide/15-agent-mode.md": [
+    "features/acp-agent-mode.md",
+    "features/agent-mode-acp.md"
+  ],
+  "README.md": [
+    "features/acp-agent-mode.md",
+    "features/memory.md",
+    "features/custom-models.md",
+    "features/configuration.md",
+    "features/plugins.md",
+    "features/headless-mode.md",
+    "features/subagents.md",
+    "features/skills.md",
+    "features/hooks.md",
+    "features/theming.md",
+    "features/tool-authorization.md",
+    "features/sandbox.md",
+    "features/terminal-support.md",
+    "features/monitoring-usage.md",
+    "features/agent-mode-acp.md",
+    "features/slash-commands.md",
+    "features/keyboard-shortcuts.md",
+    "features/authentication.md",
+    "features/background-tasks.md",
+    "features/plan-mode.md",
+    "features/mcp-servers.md",
+    "features/permissions-and-safety.md",
+    "features/dashboard.md",
+    "features/getting-started.md",
+    "features/sessions.md",
+    "features/project-rules.md",
+    "overview/architecture.md",
+    "overview/glossary.md",
+    "overview/getting-started.md",
+    "systems/str.md",
+    "systems/xai-grok-tools.md",
+    "systems/xai-tty-utils.md",
+    "systems/xai-mixpanel.md",
+    "systems/xai-grok-http.md",
+    "systems/xai-grok-subagent-resolution.md",
+    "systems/xai-grok-version.md",
+    "systems/xai-grok-pager-minimal.md",
+    "systems/int.md",
+    "systems/xai-grok-workspace.md",
+    "systems/xai-grok-models.md",
+    "systems/xai-grok-shell.md",
+    "systems/xai-tracing.md",
+    "systems/xai-grok-config.md",
+    "systems/xai-grok-test-support.md",
+    "systems/xai-grok-auth.md",
+    "systems/xai-grok-sampling-types.md",
+    "systems/ptyctl.md",
+    "systems/xai-gix-status.md",
+    "systems/xai-computer-hub-mcp-adapter.md",
+    "systems/xai-file-utils.md",
+    "systems/list.md",
+    "systems/xai-tool-types.md",
+    "systems/xai-grok-sampler.md",
+    "systems/xai-proto-build.md",
+    "systems/xai-circuit-breaker.md",
+    "systems/xai-grok-plugin-marketplace.md",
+    "systems/xai-computer-hub-sdk.md",
+    "systems/xai-computer-hub-core.md",
+    "systems/xai-grok-config-types.md",
+    "systems/build.md",
+    "systems/xai-grok-workspace-types.md",
+    "systems/xai-prompt-queue.md",
+    "systems/xai-grok-telemetry.md",
+    "systems/xai-interjection-core.md",
+    "systems/xai-grok-mermaid.md",
+    "systems/xai-tool-runtime.md",
+    "systems/xai-grok-shell-session-support.md",
+    "systems/xai-grok-hooks.md",
+    "systems/xai-acp-lib.md",
+    "systems/xai-grok-update.md",
+    "systems/cli-chat-proxy-types.md",
+    "systems/xai-grok-markdown-core.md",
+    "systems/xai-token-estimation.md",
+    "systems/xai-grok-tools-api.md",
+    "systems/ordered-hashmap.md",
+    "systems/xai-grok-agent.md",
+    "systems/xai-ratatui-textarea.md",
+    "systems/xai-grok-markdown.md",
+    "systems/xai-grok-pager-bin.md",
+    "systems/workspace.md",
+    "systems/xai-crash-handler.md",
+    "systems/mc.md",
+    "systems/xai-grok-mcp.md",
+    "systems/xai-grok-secrets.md",
+    "systems/xai-grok-voice.md",
+    "systems/graphlib-rust.md",
+    "systems/xai-grok-pager-pty-harness.md",
+    "systems/xai-agent-lifecycle.md",
+    "systems/xai-tool-protocol.md",
+    "systems/xai-codebase-graph.md",
+    "systems/xai-grok-sandbox.md",
+    "systems/xai-grok-pager-render.md",
+    "systems/xai-fast-worktree.md",
+    "systems/xai-grok-shared.md",
+    "systems/xai-system-power.md",
+    "systems/xai-chat-state.md",
+    "systems/xai-fsnotify.md",
+    "systems/xai-grok-env.md",
+    "systems/codegen.md",
+    "systems/common.md",
+    "systems/xai-test-utils.md",
+    "systems/profile.md",
+    "systems/xai-ratatui-inline.md",
+    "systems/dict.md",
+    "systems/xai-hunk-tracker.md",
+    "systems/xai-grok-paths.md",
+    "systems/xai-grok-announcements.md",
+    "systems/xai-grok-shell-base.md",
+    "systems/ptyctl-cli.md",
+    "systems/xai-sqlite-journal.md",
+    "systems/xai-grok-pager.md",
+    "systems/xai-hooks-plugins-types.md",
+    "systems/xai-grok-compaction.md",
+    "systems/xai-grok-memory.md",
+    "systems/cargo.md",
+    "systems/xai-grok-workspace-client.md",
+    "systems/mermaid-to-svg.md",
+    "systems/dagre-rust.md",
+    "systems/xai-tracing-macros.md",
+    "entrypoints/main.md",
+    "reference/config.md",
+    "reference/dependencies.md",
+    "reference/proxy-types.md",
+    "reference/tool-protocol.md",
+    "reference/build-runbook.md"
+  ],
+  "crates/codegen/xai-grok-pager/docs/user-guide/13-memory.md": [
+    "features/memory.md"
+  ],
+  "crates/codegen/xai-grok-pager/docs/user-guide/README.md": [
+    "features/memory.md",
+    "features/custom-models.md",
+    "features/configuration.md",
+    "features/plugins.md",
+    "features/headless-mode.md",
+    "features/subagents.md",
+    "features/skills.md",
+    "features/hooks.md",
+    "features/theming.md",
+    "features/sandbox.md",
+    "features/terminal-support.md",
+    "features/monitoring-usage.md",
+    "features/agent-mode-acp.md",
+    "features/slash-commands.md",
+    "features/keyboard-shortcuts.md",
+    "features/authentication.md",
+    "features/background-tasks.md",
+    "features/plan-mode.md",
+    "features/mcp-servers.md",
+    "features/permissions-and-safety.md",
+    "features/dashboard.md",
+    "features/getting-started.md",
+    "features/sessions.md",
+    "features/project-rules.md",
+    "overview/glossary.md"
+  ],
+  "crates/codegen/xai-grok-pager/docs/user-guide/11-custom-models.md": [
+    "features/custom-models.md"
+  ],
+  "crates/codegen/xai-grok-pager/docs/user-guide/05-configuration.md": [
+    "features/configuration.md",
+    "reference/config.md"
+  ],
+  "crates/codegen/xai-grok-pager/docs/user-guide/09-plugins.md": [
+    "features/plugins.md"
+  ],
+  "crates/codegen/xai-grok-pager/docs/user-guide/14-headless-mode.md": [
+    "features/headless-mode.md"
+  ],
+  "crates/codegen/xai-grok-pager/docs/user-guide/16-subagents.md": [
+    "features/subagents.md"
+  ],
+  "crates/codegen/xai-grok-pager/docs/user-guide/08-skills.md": [
+    "features/skills.md"
+  ],
+  "crates/codegen/xai-grok-pager/docs/user-guide/10-hooks.md": [
+    "features/hooks.md"
+  ],
+  "crates/codegen/xai-grok-pager/docs/user-guide/06-theming.md": [
+    "features/theming.md"
+  ],
+  "crates/codegen/xai-grok-workspace/src/permission/mod.rs": [
+    "features/tool-authorization.md"
+  ],
+  "crates/codegen/xai-grok-workspace/src/permission/policy.rs": [
+    "features/tool-authorization.md"
+  ],
+  "crates/codegen/xai-grok-pager/docs/user-guide/22-permissions-and-safety.md": [
+    "features/tool-authorization.md",
+    "features/permissions-and-safety.md"
+  ],
+  "crates/codegen/xai-grok-pager/docs/user-guide/18-sandbox.md": [
+    "features/sandbox.md"
+  ],
+  "crates/codegen/xai-grok-pager/docs/user-guide/21-terminal-support.md": [
+    "features/terminal-support.md"
+  ],
+  "crates/codegen/xai-grok-pager/docs/user-guide/24-monitoring-usage.md": [
+    "features/monitoring-usage.md"
+  ],
+  "crates/codegen/xai-grok-pager/docs/user-guide/04-slash-commands.md": [
+    "features/slash-commands.md"
+  ],
+  "crates/codegen/xai-grok-pager/docs/user-guide/03-keyboard-shortcuts.md": [
+    "features/keyboard-shortcuts.md"
+  ],
+  "crates/codegen/xai-grok-pager/docs/user-guide/02-authentication.md": [
+    "features/authentication.md"
+  ],
+  "crates/codegen/xai-grok-pager/docs/user-guide/20-background-tasks.md": [
+    "features/background-tasks.md"
+  ],
+  "crates/codegen/xai-grok-pager/docs/user-guide/19-plan-mode.md": [
+    "features/plan-mode.md"
+  ],
+  "crates/codegen/xai-grok-pager/docs/user-guide/07-mcp-servers.md": [
+    "features/mcp-servers.md"
+  ],
+  "crates/codegen/xai-grok-pager/docs/user-guide/23-dashboard.md": [
+    "features/dashboard.md"
+  ],
+  "crates/codegen/xai-grok-pager/docs/user-guide/01-getting-started.md": [
+    "features/getting-started.md"
+  ],
+  "crates/codegen/xai-grok-pager/docs/user-guide/17-sessions.md": [
+    "features/sessions.md"
+  ],
+  "crates/codegen/xai-grok-pager/docs/user-guide/12-project-rules.md": [
+    "features/project-rules.md"
+  ],
+  "Cargo.toml": [
+    "overview/architecture.md",
+    "systems/cargo.md",
+    "reference/dependencies.md"
+  ],
+  "crates/codegen/xai-grok-pager-bin/src/main.rs": [
+    "overview/architecture.md",
+    "systems/xai-grok-pager-bin.md",
+    "systems/codegen.md",
+    "entrypoints/main.md"
+  ],
+  "crates/codegen/xai-grok-shell/src/lib.rs": [
+    "overview/architecture.md",
+    "systems/xai-grok-shell.md",
+    "systems/list.md",
+    "systems/codegen.md"
+  ],
+  "rust-toolchain.toml": [
+    "overview/getting-started.md",
+    "reference/build-runbook.md"
+  ],
+  "crates/codegen/xai-grok-secrets/src/lib.rs": [
+    "systems/str.md",
+    "systems/xai-grok-secrets.md"
+  ],
+  "crates/codegen/xai-grok-tools/src/lib.rs": [
+    "systems/xai-grok-tools.md"
+  ],
+  "crates/codegen/xai-grok-tools/Cargo.toml": [
+    "systems/xai-grok-tools.md"
+  ],
+  "crates/codegen/xai-tty-utils/src/lib.rs": [
+    "systems/xai-tty-utils.md"
+  ],
+  "crates/codegen/xai-tty-utils/Cargo.toml": [
+    "systems/xai-tty-utils.md"
+  ],
+  "crates/codegen/xai-mixpanel/src/lib.rs": [
+    "systems/xai-mixpanel.md"
+  ],
+  "crates/codegen/xai-mixpanel/Cargo.toml": [
+    "systems/xai-mixpanel.md"
+  ],
+  "crates/codegen/xai-grok-http/src/lib.rs": [
+    "systems/xai-grok-http.md"
+  ],
+  "crates/codegen/xai-grok-http/Cargo.toml": [
+    "systems/xai-grok-http.md"
+  ],
+  "crates/codegen/xai-grok-subagent-resolution/src/lib.rs": [
+    "systems/xai-grok-subagent-resolution.md"
+  ],
+  "crates/codegen/xai-grok-subagent-resolution/Cargo.toml": [
+    "systems/xai-grok-subagent-resolution.md"
+  ],
+  "crates/codegen/xai-grok-version/src/lib.rs": [
+    "systems/xai-grok-version.md"
+  ],
+  "crates/codegen/xai-grok-version/Cargo.toml": [
+    "systems/xai-grok-version.md"
+  ],
+  "crates/codegen/xai-grok-pager-minimal/src/lib.rs": [
+    "systems/xai-grok-pager-minimal.md"
+  ],
+  "crates/codegen/xai-grok-pager-minimal/Cargo.toml": [
+    "systems/xai-grok-pager-minimal.md"
+  ],
+  "crates/codegen/xai-token-estimation/src/lib.rs": [
+    "systems/int.md",
+    "systems/xai-token-estimation.md"
+  ],
+  "crates/codegen/xai-grok-workspace/src/lib.rs": [
+    "systems/xai-grok-workspace.md",
+    "systems/workspace.md"
+  ],
+  "crates/codegen/xai-grok-workspace/Cargo.toml": [
+    "systems/xai-grok-workspace.md"
+  ],
+  "crates/codegen/xai-grok-models/src/lib.rs": [
+    "systems/xai-grok-models.md"
+  ],
+  "crates/codegen/xai-grok-models/Cargo.toml": [
+    "systems/xai-grok-models.md"
+  ],
+  "crates/codegen/xai-grok-shell/Cargo.toml": [
+    "systems/xai-grok-shell.md"
+  ],
+  "crates/common/xai-tracing/src/lib.rs": [
+    "systems/xai-tracing.md"
+  ],
+  "crates/common/xai-tracing/Cargo.toml": [
+    "systems/xai-tracing.md"
+  ],
+  "crates/codegen/xai-grok-config/src/lib.rs": [
+    "systems/xai-grok-config.md",
+    "systems/dict.md",
+    "reference/config.md"
+  ],
+  "crates/codegen/xai-grok-config/Cargo.toml": [
+    "systems/xai-grok-config.md"
+  ],
+  "crates/codegen/xai-grok-test-support/src/lib.rs": [
+    "systems/xai-grok-test-support.md"
+  ],
+  "crates/codegen/xai-grok-test-support/Cargo.toml": [
+    "systems/xai-grok-test-support.md"
+  ],
+  "crates/codegen/xai-grok-auth/src/lib.rs": [
+    "systems/xai-grok-auth.md"
+  ],
+  "crates/codegen/xai-grok-auth/Cargo.toml": [
+    "systems/xai-grok-auth.md"
+  ],
+  "crates/codegen/xai-grok-sampling-types/src/lib.rs": [
+    "systems/xai-grok-sampling-types.md"
+  ],
+  "crates/codegen/xai-grok-sampling-types/Cargo.toml": [
+    "systems/xai-grok-sampling-types.md"
+  ],
+  "crates/codegen/ptyctl/src/lib.rs": [
+    "systems/ptyctl.md"
+  ],
+  "crates/codegen/ptyctl/Cargo.toml": [
+    "systems/ptyctl.md"
+  ],
+  "crates/codegen/xai-gix-status/src/lib.rs": [
+    "systems/xai-gix-status.md"
+  ],
+  "crates/codegen/xai-gix-status/Cargo.toml": [
+    "systems/xai-gix-status.md"
+  ],
+  "crates/common/xai-computer-hub-mcp-adapter/src/lib.rs": [
+    "systems/xai-computer-hub-mcp-adapter.md"
+  ],
+  "crates/common/xai-computer-hub-mcp-adapter/Cargo.toml": [
+    "systems/xai-computer-hub-mcp-adapter.md"
+  ],
+  "crates/codegen/xai-file-utils/src/lib.rs": [
+    "systems/xai-file-utils.md"
+  ],
+  "crates/codegen/xai-file-utils/Cargo.toml": [
+    "systems/xai-file-utils.md"
+  ],
+  "crates/common/xai-tool-types/src/lib.rs": [
+    "systems/xai-tool-types.md"
+  ],
+  "crates/common/xai-tool-types/Cargo.toml": [
+    "systems/xai-tool-types.md"
+  ],
+  "crates/codegen/xai-grok-sampler/src/lib.rs": [
+    "systems/xai-grok-sampler.md"
+  ],
+  "crates/codegen/xai-grok-sampler/Cargo.toml": [
+    "systems/xai-grok-sampler.md"
+  ],
+  "crates/build/xai-proto-build/src/lib.rs": [
+    "systems/xai-proto-build.md",
+    "systems/build.md"
+  ],
+  "crates/build/xai-proto-build/Cargo.toml": [
+    "systems/xai-proto-build.md"
+  ],
+  "crates/common/xai-circuit-breaker/src/lib.rs": [
+    "systems/xai-circuit-breaker.md"
+  ],
+  "crates/common/xai-circuit-breaker/Cargo.toml": [
+    "systems/xai-circuit-breaker.md"
+  ],
+  "crates/codegen/xai-grok-plugin-marketplace/src/lib.rs": [
+    "systems/xai-grok-plugin-marketplace.md"
+  ],
+  "crates/codegen/xai-grok-plugin-marketplace/Cargo.toml": [
+    "systems/xai-grok-plugin-marketplace.md"
+  ],
+  "crates/common/xai-computer-hub-sdk/src/lib.rs": [
+    "systems/xai-computer-hub-sdk.md"
+  ],
+  "crates/common/xai-computer-hub-sdk/Cargo.toml": [
+    "systems/xai-computer-hub-sdk.md"
+  ],
+  "crates/common/xai-computer-hub-core/src/lib.rs": [
+    "systems/xai-computer-hub-core.md"
+  ],
+  "crates/common/xai-computer-hub-core/Cargo.toml": [
+    "systems/xai-computer-hub-core.md"
+  ],
+  "crates/codegen/xai-grok-config-types/src/lib.rs": [
+    "systems/xai-grok-config-types.md"
+  ],
+  "crates/codegen/xai-grok-config-types/Cargo.toml": [
+    "systems/xai-grok-config-types.md"
+  ],
+  "crates/build/xai-proto-build/src/find_protoc.rs": [
+    "systems/build.md"
+  ],
+  "bin/protoc": [
+    "systems/build.md"
+  ],
+  "crates/codegen/xai-grok-tools-api/build.rs": [
+    "systems/build.md"
+  ],
+  "crates/codegen/xai-grok-workspace-types/src/lib.rs": [
+    "systems/xai-grok-workspace-types.md"
+  ],
+  "crates/codegen/xai-grok-workspace-types/Cargo.toml": [
+    "systems/xai-grok-workspace-types.md"
+  ],
+  "crates/codegen/xai-prompt-queue/src/lib.rs": [
+    "systems/xai-prompt-queue.md"
+  ],
+  "crates/codegen/xai-prompt-queue/Cargo.toml": [
+    "systems/xai-prompt-queue.md"
+  ],
+  "crates/codegen/xai-grok-telemetry/src/lib.rs": [
+    "systems/xai-grok-telemetry.md"
+  ],
+  "crates/codegen/xai-grok-telemetry/Cargo.toml": [
+    "systems/xai-grok-telemetry.md"
+  ],
+  "crates/common/xai-interjection-core/src/lib.rs": [
+    "systems/xai-interjection-core.md"
+  ],
+  "crates/common/xai-interjection-core/Cargo.toml": [
+    "systems/xai-interjection-core.md"
+  ],
+  "crates/codegen/xai-grok-mermaid/src/lib.rs": [
+    "systems/xai-grok-mermaid.md"
+  ],
+  "crates/codegen/xai-grok-mermaid/Cargo.toml": [
+    "systems/xai-grok-mermaid.md"
+  ],
+  "crates/common/xai-tool-runtime/src/lib.rs": [
+    "systems/xai-tool-runtime.md",
+    "reference/tool-protocol.md"
+  ],
+  "crates/common/xai-tool-runtime/Cargo.toml": [
+    "systems/xai-tool-runtime.md"
+  ],
+  "crates/codegen/xai-grok-shell-session-support/src/lib.rs": [
+    "systems/xai-grok-shell-session-support.md"
+  ],
+  "crates/codegen/xai-grok-shell-session-support/Cargo.toml": [
+    "systems/xai-grok-shell-session-support.md"
+  ],
+  "crates/codegen/xai-grok-hooks/src/lib.rs": [
+    "systems/xai-grok-hooks.md"
+  ],
+  "crates/codegen/xai-grok-hooks/Cargo.toml": [
+    "systems/xai-grok-hooks.md"
+  ],
+  "crates/codegen/xai-acp-lib/src/lib.rs": [
+    "systems/xai-acp-lib.md"
+  ],
+  "crates/codegen/xai-acp-lib/Cargo.toml": [
+    "systems/xai-acp-lib.md"
+  ],
+  "crates/codegen/xai-grok-update/src/lib.rs": [
+    "systems/xai-grok-update.md"
+  ],
+  "crates/codegen/xai-grok-update/Cargo.toml": [
+    "systems/xai-grok-update.md"
+  ],
+  "prod/mc/cli-chat-proxy-types/src/lib.rs": [
+    "systems/cli-chat-proxy-types.md",
+    "systems/mc.md",
+    "reference/proxy-types.md"
+  ],
+  "prod/mc/cli-chat-proxy-types/Cargo.toml": [
+    "systems/cli-chat-proxy-types.md"
+  ],
+  "crates/codegen/xai-grok-markdown-core/src/lib.rs": [
+    "systems/xai-grok-markdown-core.md"
+  ],
+  "crates/codegen/xai-grok-markdown-core/Cargo.toml": [
+    "systems/xai-grok-markdown-core.md"
+  ],
+  "crates/codegen/xai-token-estimation/Cargo.toml": [
+    "systems/xai-token-estimation.md"
+  ],
+  "crates/codegen/xai-grok-tools-api/src/lib.rs": [
+    "systems/xai-grok-tools-api.md"
+  ],
+  "crates/codegen/xai-grok-tools-api/Cargo.toml": [
+    "systems/xai-grok-tools-api.md"
+  ],
+  "third_party/ordered_hashmap/src/lib.rs": [
+    "systems/ordered-hashmap.md"
+  ],
+  "third_party/ordered_hashmap/Cargo.toml": [
+    "systems/ordered-hashmap.md"
+  ],
+  "crates/codegen/xai-grok-agent/src/lib.rs": [
+    "systems/xai-grok-agent.md"
+  ],
+  "crates/codegen/xai-grok-agent/Cargo.toml": [
+    "systems/xai-grok-agent.md"
+  ],
+  "crates/codegen/xai-ratatui-textarea/src/lib.rs": [
+    "systems/xai-ratatui-textarea.md"
+  ],
+  "crates/codegen/xai-ratatui-textarea/Cargo.toml": [
+    "systems/xai-ratatui-textarea.md"
+  ],
+  "crates/codegen/xai-grok-markdown/src/lib.rs": [
+    "systems/xai-grok-markdown.md"
+  ],
+  "crates/codegen/xai-grok-markdown/Cargo.toml": [
+    "systems/xai-grok-markdown.md"
+  ],
+  "crates/codegen/xai-grok-pager-bin/Cargo.toml": [
+    "systems/xai-grok-pager-bin.md",
+    "entrypoints/main.md"
+  ],
+  "crates/codegen/xai-crash-handler/src/lib.rs": [
+    "systems/xai-crash-handler.md"
+  ],
+  "crates/codegen/xai-crash-handler/Cargo.toml": [
+    "systems/xai-crash-handler.md"
+  ],
+  "prod/mc/cli-chat-proxy-types/src/session_types.rs": [
+    "systems/mc.md",
+    "reference/proxy-types.md"
+  ],
+  "prod/mc/cli-chat-proxy-types/src/sandbox_types.rs": [
+    "systems/mc.md"
+  ],
+  "crates/codegen/xai-grok-mcp/src/lib.rs": [
+    "systems/xai-grok-mcp.md"
+  ],
+  "crates/codegen/xai-grok-mcp/Cargo.toml": [
+    "systems/xai-grok-mcp.md"
+  ],
+  "crates/codegen/xai-grok-secrets/Cargo.toml": [
+    "systems/xai-grok-secrets.md"
+  ],
+  "crates/codegen/xai-grok-voice/src/lib.rs": [
+    "systems/xai-grok-voice.md"
+  ],
+  "crates/codegen/xai-grok-voice/Cargo.toml": [
+    "systems/xai-grok-voice.md"
+  ],
+  "third_party/graphlib_rust/src/lib.rs": [
+    "systems/graphlib-rust.md"
+  ],
+  "third_party/graphlib_rust/Cargo.toml": [
+    "systems/graphlib-rust.md"
+  ],
+  "crates/codegen/xai-grok-pager-pty-harness/src/lib.rs": [
+    "systems/xai-grok-pager-pty-harness.md"
+  ],
+  "crates/codegen/xai-grok-pager-pty-harness/Cargo.toml": [
+    "systems/xai-grok-pager-pty-harness.md"
+  ],
+  "crates/codegen/xai-agent-lifecycle/src/lib.rs": [
+    "systems/xai-agent-lifecycle.md"
+  ],
+  "crates/codegen/xai-agent-lifecycle/Cargo.toml": [
+    "systems/xai-agent-lifecycle.md"
+  ],
+  "crates/common/xai-tool-protocol/src/lib.rs": [
+    "systems/xai-tool-protocol.md",
+    "systems/common.md",
+    "reference/tool-protocol.md"
+  ],
+  "crates/common/xai-tool-protocol/Cargo.toml": [
+    "systems/xai-tool-protocol.md"
+  ],
+  "crates/codegen/xai-codebase-graph/src/lib.rs": [
+    "systems/xai-codebase-graph.md"
+  ],
+  "crates/codegen/xai-codebase-graph/Cargo.toml": [
+    "systems/xai-codebase-graph.md"
+  ],
+  "crates/codegen/xai-grok-sandbox/src/lib.rs": [
+    "systems/xai-grok-sandbox.md"
+  ],
+  "crates/codegen/xai-grok-sandbox/Cargo.toml": [
+    "systems/xai-grok-sandbox.md"
+  ],
+  "crates/codegen/xai-grok-pager-render/src/lib.rs": [
+    "systems/xai-grok-pager-render.md"
+  ],
+  "crates/codegen/xai-grok-pager-render/Cargo.toml": [
+    "systems/xai-grok-pager-render.md"
+  ],
+  "crates/codegen/xai-fast-worktree/src/lib.rs": [
+    "systems/xai-fast-worktree.md"
+  ],
+  "crates/codegen/xai-fast-worktree/Cargo.toml": [
+    "systems/xai-fast-worktree.md"
+  ],
+  "crates/codegen/xai-grok-shared/src/lib.rs": [
+    "systems/xai-grok-shared.md"
+  ],
+  "crates/codegen/xai-grok-shared/Cargo.toml": [
+    "systems/xai-grok-shared.md"
+  ],
+  "crates/codegen/xai-system-power/src/lib.rs": [
+    "systems/xai-system-power.md"
+  ],
+  "crates/codegen/xai-system-power/Cargo.toml": [
+    "systems/xai-system-power.md"
+  ],
+  "crates/codegen/xai-chat-state/src/lib.rs": [
+    "systems/xai-chat-state.md"
+  ],
+  "crates/codegen/xai-chat-state/Cargo.toml": [
+    "systems/xai-chat-state.md"
+  ],
+  "crates/codegen/xai-fsnotify/src/lib.rs": [
+    "systems/xai-fsnotify.md"
+  ],
+  "crates/codegen/xai-fsnotify/Cargo.toml": [
+    "systems/xai-fsnotify.md"
+  ],
+  "crates/codegen/xai-grok-env/src/lib.rs": [
+    "systems/xai-grok-env.md"
+  ],
+  "crates/codegen/xai-grok-env/Cargo.toml": [
+    "systems/xai-grok-env.md"
+  ],
+  "crates/codegen/xai-grok-pager/src/lib.rs": [
+    "systems/codegen.md",
+    "systems/xai-grok-pager.md"
+  ],
+  "crates/common/xai-grok-compaction/src/lib.rs": [
+    "systems/common.md",
+    "systems/xai-grok-compaction.md"
+  ],
+  "crates/common/xai-test-utils/src/lib.rs": [
+    "systems/xai-test-utils.md"
+  ],
+  "crates/common/xai-test-utils/Cargo.toml": [
+    "systems/xai-test-utils.md"
+  ],
+  "crates/codegen/xai-grok-shell-base/src/lib.rs": [
+    "systems/profile.md",
+    "systems/xai-grok-shell-base.md"
+  ],
+  "crates/codegen/xai-ratatui-inline/src/lib.rs": [
+    "systems/xai-ratatui-inline.md"
+  ],
+  "crates/codegen/xai-ratatui-inline/Cargo.toml": [
+    "systems/xai-ratatui-inline.md"
+  ],
+  "crates/codegen/xai-hunk-tracker/src/lib.rs": [
+    "systems/xai-hunk-tracker.md"
+  ],
+  "crates/codegen/xai-hunk-tracker/Cargo.toml": [
+    "systems/xai-hunk-tracker.md"
+  ],
+  "crates/codegen/xai-grok-paths/src/lib.rs": [
+    "systems/xai-grok-paths.md"
+  ],
+  "crates/codegen/xai-grok-paths/Cargo.toml": [
+    "systems/xai-grok-paths.md"
+  ],
+  "crates/codegen/xai-grok-announcements/src/lib.rs": [
+    "systems/xai-grok-announcements.md"
+  ],
+  "crates/codegen/xai-grok-announcements/Cargo.toml": [
+    "systems/xai-grok-announcements.md"
+  ],
+  "crates/codegen/xai-grok-shell-base/Cargo.toml": [
+    "systems/xai-grok-shell-base.md"
+  ],
+  "crates/codegen/ptyctl-cli/src/main.rs": [
+    "systems/ptyctl-cli.md"
+  ],
+  "crates/codegen/ptyctl-cli/Cargo.toml": [
+    "systems/ptyctl-cli.md"
+  ],
+  "crates/codegen/xai-sqlite-journal/src/lib.rs": [
+    "systems/xai-sqlite-journal.md"
+  ],
+  "crates/codegen/xai-sqlite-journal/Cargo.toml": [
+    "systems/xai-sqlite-journal.md"
+  ],
+  "crates/codegen/xai-grok-pager/Cargo.toml": [
+    "systems/xai-grok-pager.md"
+  ],
+  "crates/codegen/xai-hooks-plugins-types/src/lib.rs": [
+    "systems/xai-hooks-plugins-types.md"
+  ],
+  "crates/codegen/xai-hooks-plugins-types/Cargo.toml": [
+    "systems/xai-hooks-plugins-types.md"
+  ],
+  "crates/common/xai-grok-compaction/Cargo.toml": [
+    "systems/xai-grok-compaction.md"
+  ],
+  "crates/codegen/xai-grok-memory/src/lib.rs": [
+    "systems/xai-grok-memory.md"
+  ],
+  "crates/codegen/xai-grok-memory/Cargo.toml": [
+    "systems/xai-grok-memory.md"
+  ],
+  "crates/codegen/xai-grok-workspace-client/src/lib.rs": [
+    "systems/xai-grok-workspace-client.md"
+  ],
+  "crates/codegen/xai-grok-workspace-client/Cargo.toml": [
+    "systems/xai-grok-workspace-client.md"
+  ],
+  "third_party/mermaid-to-svg/src/lib.rs": [
+    "systems/mermaid-to-svg.md"
+  ],
+  "third_party/mermaid-to-svg/Cargo.toml": [
+    "systems/mermaid-to-svg.md"
+  ],
+  "third_party/dagre_rust/src/lib.rs": [
+    "systems/dagre-rust.md"
+  ],
+  "third_party/dagre_rust/Cargo.toml": [
+    "systems/dagre-rust.md"
+  ],
+  "crates/codegen/xai-tracing-macros/src/lib.rs": [
+    "systems/xai-tracing-macros.md"
+  ],
+  "crates/codegen/xai-tracing-macros/Cargo.toml": [
+    "systems/xai-tracing-macros.md"
+  ],
+  "THIRD-PARTY-NOTICES": [
+    "reference/dependencies.md"
+  ]
+}

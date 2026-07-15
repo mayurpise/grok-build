@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "repo": ".",
+  "scope": ".",
+  "source": "graph",
+  "degraded": false,
+  "min_fan_in": 2,
+  "generated_order": ["systems/codegen.md","systems/common.md","systems/str.md","systems/list.md","systems/dict.md","systems/cargo.md","systems/int.md","entrypoints/main.md","systems/mermaid-to-svg.md","systems/dagre-rust.md","systems/mc.md","systems/graphlib-rust.md","systems/ordered-hashmap.md","systems/build.md","systems/profile.md","systems/workspace.md"],
+  "expected": [
+    {"concept_id":"systems/codegen.md","type":"Module","resource":"codegen","fan_in":0,"required":true,"reason_if_deferred":null},
+    {"concept_id":"systems/common.md","type":"Module","resource":"common","fan_in":0,"required":true,"reason_if_deferred":null},
+    {"concept_id":"systems/str.md","type":"Module","resource":"str","fan_in":0,"required":true,"reason_if_deferred":null},
+    {"concept_id":"systems/list.md","type":"Module","resource":"list","fan_in":0,"required":true,"reason_if_deferred":null},
+    {"concept_id":"systems/dict.md","type":"Module","resource":"dict","fan_in":0,"required":true,"reason_if_deferred":null},
+    {"concept_id":"systems/cargo.md","type":"Module","resource":"Cargo","fan_in":0,"required":true,"reason_if_deferred":null},
+    {"concept_id":"systems/int.md","type":"Module","resource":"int","fan_in":0,"required":true,"reason_if_deferred":null},
+    {"concept_id":"entrypoints/main.md","type":"Entrypoint","resource":"main","fan_in":0,"required":true,"reason_if_deferred":null},
+    {"concept_id":"systems/mermaid-to-svg.md","type":"Module","resource":"mermaid-to-svg","fan_in":0,"required":true,"reason_if_deferred":null},
+    {"concept_id":"systems/dagre-rust.md","type":"Module","resource":"dagre_rust","fan_in":0,"required":true,"reason_if_deferred":null},
+    {"concept_id":"systems/mc.md","type":"Module","resource":"mc","fan_in":0,"required":true,"reason_if_deferred":null},
+    {"concept_id":"systems/graphlib-rust.md","type":"Module","resource":"graphlib_rust","fan_in":0,"required":true,"reason_if_deferred":null},
+    {"concept_id":"systems/ordered-hashmap.md","type":"Module","resource":"ordered_hashmap","fan_in":0,"required":true,"reason_if_deferred":null},
+    {"concept_id":"systems/build.md","type":"Module","resource":"build","fan_in":0,"required":true,"reason_if_deferred":null},
+    {"concept_id":"systems/profile.md","type":"Module","resource":"profile","fan_in":0,"required":true,"reason_if_deferred":null},
+    {"concept_id":"systems/workspace.md","type":"Module","resource":"workspace","fan_in":0,"required":true,"reason_if_deferred":null}
+  ],
+  "counts": {"expected_total": 16, "required": 16, "deferred": 0}
+}

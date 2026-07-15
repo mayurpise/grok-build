@@ -1,0 +1,61 @@
+{
+  "generated_at": "2026-07-15T23:08:34Z",
+  "git_commit": "b189869b7755d2b482969acf6c92da3ecfeffd36",
+  "total_files_scanned": 2219,
+  "signals": {
+    "backend_routes": {
+      "count": 9,
+      "sample_files": []
+    },
+    "frontend_routes": {
+      "count": 0,
+      "sample_files": []
+    },
+    "components": {
+      "count": 69,
+      "sample_files": [
+        "crates/codegen/xai-grok-pager/src/views"
+      ]
+    },
+    "services": {
+      "count": 0,
+      "sample_files": []
+    },
+    "data_models": {
+      "count": 99,
+      "sample_files": []
+    },
+    "auth_files": {
+      "count": 62,
+      "sample_files": [
+        "crates/codegen/xai-grok-auth",
+        "crates/codegen/xai-grok-workspace/src/permission"
+      ]
+    },
+    "state_management": {
+      "count": 0,
+      "sample_files": []
+    },
+    "background_jobs": {
+      "count": 3,
+      "sample_files": []
+    },
+    "persistence": {
+      "count": 18,
+      "sample_files": [
+        "crates/codegen/xai-grok-shell/src/session"
+      ]
+    },
+    "test_infra": {
+      "count": 472,
+      "sample_files": []
+    },
+    "config_files": {
+      "count": 9,
+      "sample_files": [
+        "Cargo.toml",
+        "rust-toolchain.toml"
+      ]
+    }
+  }
+}
